@@ -1,0 +1,70 @@
+.contato {
+    display: flex;
+    flex-direction: column;    
+    width:500px;
+    padding: 10px;
+    flex-wrap: 15px;
+}
+
+.contato-formulario {
+    border-radius: 0 5px 0 5px;
+    width: 50%;
+    background-color: rgb(167, 227, 176);
+    margin: 0 auto;
+    bottom: 20px;
+    right: 20px;
+    padding: 60px;
+    text-align: left;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#3fbe3d, #cce4ca);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.125rem / 1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.form label {
+    display: block;
+    font: 400 1rem / 1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
+
+textarea {
+    font: 400 1rem / 1.5 "Roboto", sans-serif;
+    background:rgba(0, 0, 0, 0.1);
+    border: 1px solid ;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="email" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea {
+    font: 400 1rem / 1.5 "Roboto", sans-serif;
+    background:#ffffff;
+    border: 1px solid var(--cor-2);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
